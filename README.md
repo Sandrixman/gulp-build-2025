@@ -25,6 +25,7 @@ A modern **Gulp build system** for front-end development with ES6+, SCSS (Dart S
 
 ## 📁 Project Structure
 
+```plaintext
 src/
 │
 ├── fonts/ # Fonts (.otf, .ttf)
@@ -34,7 +35,7 @@ src/
 │ ├── base/ # variables, mixins, reset, typography
 │ └── partials/ # components and page sections
 └── *.html # HTML files
-
+```
 ---
 
 ## 💻 Installation
@@ -43,14 +44,19 @@ src/
 git clone https://github.com/Sandrixman/gulp-template-2025.git
 cd gulp-template-2025
 npm install
+```
 
-🧰 Commands
+---
+
+## 🧰 Commands
 Command	Description
 npm run dev	Start development mode with live reload
 npm run build	Build the optimized production version in dist/
 npm run otfToTtf	Convert .otf fonts to .ttf
 
-🧩 Main Gulp Tasks
+---
+
+## 🧩 Main Gulp Tasks
 Task	Description
 html	Includes partials via fileInclude, adds WebP support
 scss	Compiles SCSS → CSS, groups MQs, adds prefixes, minifies
@@ -60,7 +66,9 @@ fonts	Converts fonts into .woff/.woff2
 svgSprite	Creates SVG sprite
 server	Runs BrowserSync with automatic reload
 
-🧱 Build Output
+---
+
+## 🧱 Build Output
 
 After running npm run build, you get:
 
@@ -71,7 +79,9 @@ dist/
 ├── fonts/
 └── index.html
 
-🧠 Notes
+---
+
+## 🧠 Notes
 
 ✅ Uses modern SCSS @use and @forward syntax
 
