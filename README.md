@@ -70,6 +70,7 @@ server	Runs BrowserSync with automatic reload
 
 ## 🧱 Build Output
 
+```plaintext
 After running npm run build, you get:
 
 dist/
@@ -78,6 +79,7 @@ dist/
 ├── img/
 ├── fonts/
 └── index.html
+```
 
 ---
 
