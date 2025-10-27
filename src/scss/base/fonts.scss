@@ -1,0 +1,3 @@
+@use "base/mixins";
+
+@include mixins.font("Inter", "Inter-Bold", "700", "normal");

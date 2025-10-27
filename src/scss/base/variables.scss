@@ -1,0 +1,38 @@
+/* Breakpoints */
+$xs: 576;
+$sm: 768;
+$md: 992;
+$lg: 1200;
+$xl: 1400;
+
+:root {
+    /* Fonts */
+    --font-family-primary: "Inter";
+
+    /* Headings */
+    --font-h1: 500 80rem / 104% var(--font-family-primary);
+    --font-h2: 500 56rem / 124% var(--font-family-primary);
+    --font-h3: 500 48rem / 124% var(--font-family-primary);
+    --font-h4: 500 32rem / 124% var(--font-family-primary);
+    --font-h5: 500 24rem / 124% var(--font-family-primary);
+    /* Headings mobile */
+    --font-h1-mobile: 500 48rem / 104% var(--font-family-primary);
+    --font-h2-mobile: 500 32rem / 124% var(--font-family-primary);
+    --font-h3-mobile: 500 32rem / 124% var(--font-family-primary);
+    --font-h4-mobile: 500 24rem / 124% var(--font-family-primary);
+    --font-h5-mobile: 500 20rem / 124% var(--font-family-primary);
+
+    /* Body */
+    --font-body-r: 400 16rem / 145% var(--font-family-primary);
+    /* Body mobile */
+    --font-body-r-mobile: 400 15rem / 145% var(--font-family-primary);
+
+    /* Colors */
+    --color-black: #213245;
+    --color-white: #ffffff;
+    --color-bg: #494949;
+
+    /* Transitions */
+    --transition-duration: 0.5s;
+    --transition-easing: ease;
+}
